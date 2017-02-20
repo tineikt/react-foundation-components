@@ -1,6 +1,6 @@
 {
   "name": "react-foundation-components",
-  "version": "0.12.0-tine-fix",
+  "version": "0.12.0-tine-fix-1",
   "description": "Foundation Sites components built with the power of React and CSS Modules",
   "main": "lib/index.js",
   "files": [
@@ -20,7 +20,8 @@
     "start-examples-cdn-flex": "npm run build && node server.js examples/cdn-flex/webpack.config.js",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "release-patch": "npm run build && release-it",
-    "release-minor": "npm run build && release-it minor"
+    "release-minor": "npm run build && release-it minor",
+    "postinstall": "cd node_modules/uncontrollable; npm run build"
   },
   "repository": {
     "type": "git",

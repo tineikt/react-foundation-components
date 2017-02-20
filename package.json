@@ -51,7 +51,7 @@
     "lodash": "^4.16.1",
     "react-overlays": "^0.6.6",
     "react-prop-types": "^0.4.0",
-    "uncontrollable": "^4.0.3",
+    "uncontrollable": "jquense/uncontrollable#034275ea166000abac8e9a9c05d092b775a832e8",
     "underscore.string": "^3.3.4"
   },
   "devDependencies": {

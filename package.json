@@ -20,8 +20,7 @@
     "start-examples-cdn-flex": "npm run build && node server.js examples/cdn-flex/webpack.config.js",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "release-patch": "npm run build && release-it",
-    "release-minor": "npm run build && release-it minor",
-    "postinstall": "cd node_modules/uncontrollable; npm run build"
+    "release-minor": "npm run build && release-it minor"
   },
   "repository": {
     "type": "git",

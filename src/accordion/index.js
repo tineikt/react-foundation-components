@@ -1,7 +1,7 @@
 import React, { PropTypes, Children, cloneElement, isValidElement } from 'react';
 import cx from 'classnames';
 import cxBinder from 'classnames/bind';
-import uncontrollable from 'uncontrollable/batching';
+import uncontrollable from 'uncontrollable/lib/batching';
 import includes from 'lodash/includes';
 import noop from 'lodash/noop';
 import isBlank from 'underscore.string/isBlank';

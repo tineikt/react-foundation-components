@@ -1,7 +1,7 @@
 import React, { PropTypes, Children, cloneElement, isValidElement } from 'react';
 import cx from 'classnames';
 import cxBinder from 'classnames/bind';
-import uncontrollable from 'uncontrollable/batching';
+import uncontrollable from 'uncontrollable/lib/batching';
 
 import { COMPONENT_COLORS } from '../util/constants';
 import { ClearFix } from '../float';
